@@ -47,6 +47,8 @@ Available for **B2B consulting or employment**.
 - Development and maintenance of **vendor-specific telemetry services in AOSP**
 - Migration to a **unified multi-platform telemetry architecture**
 - Close collaboration with platform, system and application teams
+- Utilized AI-assisted development tools including Claude, OpenAI ChatGPT, GitHub Copilot to improve productivity and code quality
+- Exploring hardware-oriented development with Verilog / FPGA
 
 **Tech:** AOSP, Clang, LLDB, Soong, Python  
 

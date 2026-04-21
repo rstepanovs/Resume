@@ -34,7 +34,9 @@ Highly adaptable, solution-oriented, and effective both independently and within
 
 - Developed and maintained a **vendor-specific telemetry service** within AOSP  
 - Facilitated migration to a **unified, multi-platform telemetry system**  
-- Collaborated with cross-functional teams to ensure seamless integration  
+- Collaborated with cross-functional teams to ensure seamless integration
+- Utilized AI-assisted development tools including Claude, OpenAI ChatGPT, GitHub Copilot to improve productivity and code quality
+- Exploring hardware-oriented development with Verilog / FPGA
 
 **Tools:** AOSP, Clang, LLDB, Soong, Python  
 
@@ -54,7 +56,7 @@ Highly adaptable, solution-oriented, and effective both independently and within
 
 ### Sigma Connectivity AB  
 **Senior Software Developer**  
-*Jun 2022 – Present*
+*Jun 2022 – Dec 2023*
 
 - R&D project for **META**: HW solutions for running AI models with **NPU acceleration**  
 - Evaluated platforms for AI workloads  
