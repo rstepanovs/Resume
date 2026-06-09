@@ -200,9 +200,15 @@ Member of **MIB (Men In Black)** — an interview-and-test-gated elite troublesh
 
 - **Programming Languages:** C / C++ (26+ years), Python, Java, x86 / ARM assembly, TCL/TK
 - **Operating Systems:** Linux / Unix (20+ years), Android / Android Wear / AOSP (12+ years), FreeBSD, AIX, Solaris, OS/2
+<<<<<<< HEAD
 - **Real-Time / Embedded OS:** BlackBerry QNX, NVIDIA Drive OS, OSE
 - **Debugging & Root-Cause Analysis:** GDB, LLDB, Trace32, Ozone J-Link, Crash; crash-dump & ramdump analysis; memory-corruption and leak hunting
 - **Tracing & Profiling:** Perfetto, Systrace, kernel ftrace, nRF Power Profiler; performance & power profiling
+=======
+- **Real-Time / Embedded OS:** BlackBerry QNX, NVIDIA Drive OS, OSE, Free RTOS, Zephyr
+- **Debugging & Root-Cause Analysis:** GDB, LLDB, Trace32, Ozone J-Link, Crash; crash-dump & ramdump analysis; memory-corruption and leak hunting
+- **Tracing & Profiling:** Perfetto, Systrace, kernel ftrace, nRF Power Profiler; performance & power profiling, PicoScope
+>>>>>>> d1c5c7e (Updating resume and rendering scripts)
 - **Low-Level & Drivers:** Linux kernel, device drivers, board bring-up, bootloaders, DSI / MIPI, I2C, PCMCIA / CardBus, USB, PCI
 - **Connectivity:** Wi-Fi, WiGig (802.11ad), LTE / modem (QXDM, QPST), TFTP/BOOTP, ATM
 - **AI / Hardware:** ARM Ethos-U NPUs, NPU / APU evaluation, TensorFlow, PyTorch, Caffe2, Vela compiler, OpenCV
