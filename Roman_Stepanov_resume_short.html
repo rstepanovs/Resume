@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Resume</title>
+<style>
+@page {
+    size: A4;
+    margin: 15mm 20mm;
+}
+
+@media print {
+    body { margin: 0; }
+    .page { box-shadow: none; padding: 15mm 20mm; }
+}
+
+* { box-sizing: border-box; }
+
+body {
+    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 10pt;
+    line-height: 1.45;
+    color: #2c3e50;
+    background: #e8ecf1;
+    margin: 0;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.page {
+    background: #fff;
+    max-width: 210mm;
+    min-height: 297mm;
+    padding: 18mm 22mm;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+}
+
+h1 {
+    font-size: 22pt;
+    color: #1a1a2e;
+    margin: 0 0 4px 0;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 11.5pt;
+    color: #1a5276;
+    border-bottom: 2.5px solid #2980b9;
+    padding-bottom: 3px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 10.5pt;
+    color: #2c3e50;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    font-weight: 600;
+}
+
+p {
+    margin: 3px 0;
+}
+
+a {
+    color: #2471a3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #1a5276;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #d5dbdf;
+    margin: 10px 0;
+}
+
+ul {
+    margin: 4px 0;
+    padding-left: 18px;
+}
+
+li {
+    margin-bottom: 2px;
+}
+
+li::marker {
+    color: #2980b9;
+}
+
+strong {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+em {
+    color: #717d7e;
+    font-style: italic;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 4px;
+}
+
+td {
+    vertical-align: top;
+    padding: 4px 8px;
+}
+
+img {
+    border-radius: 6px;
+    border: 1px solid #dce1e6;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+</style>
+</head>
+<body>
+<div class="page">
+<!-- ===== HEADER ===== -->
+<table>
+  <tr>
+    <td width="110">
+      <img src="photo.png" alt="Roman Stepanov" width="100"/>
+    </td>
+    <td>
+      <h1>Roman Stepanov</h1>
+      <p>
+        Dalby (Lund municipality), Sweden<br/>
+        📧 <a href="mailto:roman.stepanov@beltandbraces.se">roman.stepanov@beltandbraces.se</a> |
+        📞 +46 76 76 211 21<br/>
+        🔗 <a href="https://www.linkedin.com/in/roman-stepanov-31823a62/">LinkedIn</a>
+      </p>
+    </td>
+  </tr>
+</table>
+
+<hr />
+<h2>Profile</h2>
+<p>Senior Software Engineer with <strong>25+ years of experience</strong> in <strong>embedded systems, Android, Linux kernel and low-level debugging</strong>.<br />
+Strong background in <strong>automotive, telecom, AI acceleration and performance analysis</strong>.<br />
+Specialist in <strong>deep root-cause analysis</strong> of complex, safety-critical problems in cross-functional environments.<br />
+Available for <strong>B2B consulting or employment</strong>.</p>
+<hr />
+<h2>Key Competencies</h2>
+<ul>
+<li>Embedded Linux &amp; Android (AOSP, BSP, system services)</li>
+<li>Low-level debugging &amp; root-cause analysis</li>
+<li>Automotive platforms (QNX, NVIDIA Drive OS)</li>
+<li>Performance &amp; power profiling</li>
+<li>Kernel, drivers, system bring-up</li>
+<li>AI HW / NPU evaluation</li>
+</ul>
+<hr />
+<h2>Professional Experience</h2>
+<h3>Sigma Connectivity AB — Lund</h3>
+<p><strong>Senior Software Engineer (Consultant)</strong><br />
+<em>Jan 2025 – Present</em></p>
+<ul>
+<li><strong>Consolidating legacy data-collection variants into one unified, multi-platform telemetry system</strong> in AOSP</li>
+<li><strong>Migrated the codebase from AOSP 14 to AOSP 16</strong> and onboarded existing wearable devices</li>
+<li>Accelerated delivery and code quality with <strong>AI-assisted tools</strong> (Claude, ChatGPT, Copilot)</li>
+</ul>
+<p><strong>Tech:</strong> AOSP, Clang, LLDB, Soong, Python  </p>
+<hr />
+<h3>Volvo Cars — Lund</h3>
+<p><strong>Senior Software Developer (Consultant)</strong><br />
+<em>Dec 2023 – Jan 2025</em></p>
+<ul>
+<li><strong>Delivered performance &amp; debugging tooling for the car's High Performance Computing Units (HPCU)</strong> — per-process CPU, memory and core-scheduling visibility</li>
+<li><strong>Enabled regression/trend tracking across system versions</strong> via comparable captured sessions; surfaced hidden CPU spikes (e.g. on car-door open)</li>
+</ul>
+<p><strong>Platforms:</strong> ARM / AArch64, NVIDIA Drive OS, QNX<br />
+<strong>Tech:</strong> C/C++, Python, PostgreSQL, Plotly  </p>
+<hr />
+<h3>Sigma Connectivity AB — Lund</h3>
+<p><strong>Senior Software Developer (Consultant)</strong><br />
+<em>2019 – 2023</em></p>
+<ul>
+<li>R&amp;D for <strong>Meta</strong> on AI-accelerated wearables (EMG hand-gesture sensor, CV/AR); <strong>benchmarked NPU/APU performance &amp; power</strong>, driving platform decisions</li>
+<li><strong>Delivered the factory test &amp; calibration backend for a Microsoft dual-screen Android tablet</strong>, preventing scrapping of finished units on the production line</li>
+<li>Built tracing/profiling tools, display-stack control and system diagnostics</li>
+</ul>
+<p><strong>Platforms:</strong> ARM, ARM Ethos-U, Qualcomm<br />
+<strong>Tech:</strong> C/C++, Python, TensorFlow, Perfetto, Systrace, OpenCV  </p>
+<hr />
+<h3>Axis Communications — Lund</h3>
+<p><strong>Senior Software Developer</strong><br />
+<em>2018 – 2019</em></p>
+<ul>
+<li>Linux kernel development for <strong>secure camera platforms</strong></li>
+<li><strong>Enabled pre-silicon bootloader debugging</strong> with QEMU peripheral models (I2C, Flash); device drivers, kernel debugging, board bring-up</li>
+</ul>
+<p><strong>Tech:</strong> C/C++, GDB, QEMU  </p>
+<hr />
+<h3>TerraNet AB — Lund</h3>
+<p><strong>Senior Software Developer</strong><br />
+<em>2017 – 2018</em></p>
+<ul>
+<li><strong>Proved a 3M Wi-Fi-mesh headset concept viable</strong> (~10 units simultaneously)</li>
+<li>Brought a heavyweight Android wearable platform within power budget via CPU &amp; power optimization</li>
+</ul>
+<hr />
+<h3>Sony Mobile Communications / Sony Ericsson — Lund</h3>
+<p><strong>Senior Software Engineer</strong><br />
+<em>2008 – 2015</em></p>
+<ul>
+<li>Member of <strong>MIB (Men In Black)</strong> elite troubleshooting team</li>
+<li><strong>Saved a large operator order</strong> by root-causing broken video streaming; tamed memory corruption, leaks and watchdogs</li>
+<li>Built internal debugging tools (memory tracker, GDB crash-dump plugin, modem ring-buffer logger)</li>
+</ul>
+<p><strong>Platforms:</strong> Qualcomm, OMAP, Broadcom, OSE  </p>
+<hr />
+<h2>Education</h2>
+<p><strong>Higher Technical Education</strong><br />
+Software Engineering / Computer Systems</p>
+<hr />
+<h2>Technical Skills</h2>
+<ul>
+<li><strong>Languages:</strong> C, C++, Python, Java  </li>
+<li><strong>OS:</strong> Linux, Android, FreeBSD  </li>
+<li><strong>Debugging:</strong> GDB, Trace32, J-Link  </li>
+<li><strong>Tools:</strong> Git, Gerrit, Perfetto, QEMU  </li>
+<li><strong>Architectures:</strong> ARM, AArch64, x86  </li>
+</ul>
+<hr />
+</div>
+</body>
+</html>

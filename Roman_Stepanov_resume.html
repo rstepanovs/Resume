@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Resume</title>
+<style>
+@page {
+    size: A4;
+    margin: 15mm 20mm;
+}
+
+@media print {
+    body { margin: 0; }
+    .page { box-shadow: none; padding: 15mm 20mm; }
+}
+
+* { box-sizing: border-box; }
+
+body {
+    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 10pt;
+    line-height: 1.45;
+    color: #2c3e50;
+    background: #e8ecf1;
+    margin: 0;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.page {
+    background: #fff;
+    max-width: 210mm;
+    min-height: 297mm;
+    padding: 18mm 22mm;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+}
+
+h1 {
+    font-size: 22pt;
+    color: #1a1a2e;
+    margin: 0 0 4px 0;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 11.5pt;
+    color: #1a5276;
+    border-bottom: 2.5px solid #2980b9;
+    padding-bottom: 3px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 10.5pt;
+    color: #2c3e50;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    font-weight: 600;
+}
+
+p {
+    margin: 3px 0;
+}
+
+a {
+    color: #2471a3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #1a5276;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #d5dbdf;
+    margin: 10px 0;
+}
+
+ul {
+    margin: 4px 0;
+    padding-left: 18px;
+}
+
+li {
+    margin-bottom: 2px;
+}
+
+li::marker {
+    color: #2980b9;
+}
+
+strong {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+em {
+    color: #717d7e;
+    font-style: italic;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 4px;
+}
+
+td {
+    vertical-align: top;
+    padding: 4px 8px;
+}
+
+img {
+    border-radius: 6px;
+    border: 1px solid #dce1e6;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+</style>
+</head>
+<body>
+<div class="page">
+<!-- ===== HEADER ===== -->
+<table>
+  <tr>
+    <td width="120">
+      <img src="photo.png" alt="Roman Stepanov" width="110"/>
+    </td>
+    <td>
+      <h1>Roman Stepanov</h1>
+      <p>
+        Mjölvägen 8, 247 55 Dalby, Sweden<br/>
+        📧 <a href="mailto:roman.stepanov@beltandbraces.se">roman.stepanov@beltandbraces.se</a><br/>
+        📞 +46 76 76 211 21<br/>
+        🔗 <a href="https://www.linkedin.com/in/roman-stepanov-31823a62/">LinkedIn</a>
+      </p>
+    </td>
+  </tr>
+</table>
+
+<hr />
+<h2>Objective</h2>
+<p><strong>Senior Software Developer</strong> with 25+ years of experience across <strong>embedded and system-level development</strong> — from OS/2 device drivers to AOSP, automotive HPCUs, and AI accelerators on wearables.
+Specialist in <strong>deep debugging and root-cause analysis</strong> of complex, low-level, and safety-critical problems that others struggle to crack.
+Equally effective as an independent expert consultant and as a full member of cross-functional teams.</p>
+<hr />
+<h2>Professional Experience</h2>
+<h3>Sigma Connectivity AB — Lund, Sweden</h3>
+<p><strong>Senior Software Engineer (Consultant)</strong>
+<em>Jan 2025 – Present</em></p>
+<ul>
+<li><strong>Consolidating several legacy data-collection variants into one unified, multi-platform telemetry system</strong> — eliminating duplicated per-device pipelines and putting both legacy and new wearables on a common interface</li>
+<li><strong>Migrated the telemetry codebase from AOSP 14 to AOSP 16</strong> and onboarded existing devices onto the new system</li>
+<li>Develop and maintain <strong>AOSP telemetry services across multiple wearable device families</strong>, capturing application events for device/service health monitoring and debugging</li>
+<li>Engaged as an <strong>external consultant</strong> to a ~5-person core team, resolving cross-cutting problems across the codebase</li>
+<li>Accelerated development and improved code quality with <strong>AI-assisted tools</strong> (Claude, OpenAI ChatGPT, GitHub Copilot)</li>
+</ul>
+<p><strong>Tools:</strong> AOSP, Clang, LLDB, Soong, Python</p>
+<hr />
+<h3>Volvo Cars — Lund, Sweden</h3>
+<p><strong>Senior Software Developer (Consultant)</strong>
+<em>Dec 2023 – Jan 2025</em></p>
+<ul>
+<li><strong>Delivered performance-evaluation and debugging tooling for the car's two High Performance Computing Units (HPCU)</strong>, giving the team visibility into per-process CPU time, memory, and core scheduling — to confirm compute headroom and speed up failure diagnosis</li>
+<li><strong>Enabled regression and trend tracking across system versions</strong> by making captured sessions (<em>bundles</em>) directly comparable release over release</li>
+<li><strong>Surfaced hidden performance issues</strong> through graphical views of boot-time process startup (key to fast vehicle wake-up), per-second per-process CPU, and system events — e.g. pinpointing a process that spiked CPU whenever a car door opened</li>
+<li>Integrated as a <strong>full member of a 4-person team</strong> (external consultant)</li>
+</ul>
+<p><strong>Architectures:</strong> AArch64, ARM, NVIDIA Drive OS, BlackBerry QNX
+<strong>Tools:</strong> GNU C/C++, Python, Momentics IDE, PostgreSQL, Plotly</p>
+<hr />
+<h3>Sigma Connectivity AB — Lund, Sweden</h3>
+<p><strong>Senior Software Developer (Consultant) — R&amp;D for Meta</strong>
+<em>Jun 2022 – Dec 2023</em></p>
+<ul>
+<li><strong>Provided the performance and power data that drove the platform's performance-vs-cost decision</strong>, showing SRAM delivered the best NPU performance but at the highest cost</li>
+<li><strong>Benchmarked NPU inference speed across memory configurations</strong> using a compact keyword-spotting model as a proxy for the target EMG hand-gesture model</li>
+<li><strong>Established repeatable methods for measuring NPU performance and power</strong> under a tight wearable power budget</li>
+<li><strong>Compiled and optimized models for the ARM Ethos-U NPU</strong> with the Vela compiler</li>
+<li>Software engineer in a 6-person team (3 hardware, 3 software); R&amp;D for Meta on a wearable <strong>EMG muscle-signal sensor</strong> for hand-gesture recognition</li>
+</ul>
+<p><strong>Architectures:</strong> AArch64, ARM, ARM Ethos-U, Qualcomm Slate
+<strong>Tools:</strong> GNU C/C++, J-Link, JTAG, nRF Power Profiler, Vela compiler, TensorFlow, Python</p>
+<hr />
+<h3>Sigma Connectivity AB — Lund, Sweden</h3>
+<p><strong>Senior Software Developer (Consultant) — for Meta</strong>
+<em>Jun 2021 – Jun 2022</em></p>
+<ul>
+<li><strong>Enabled the customer to benchmark inference performance across different models</strong> by building performance-evaluation tooling for the AI hardware (APU) on a <strong>computer-vision / AR wearable</strong></li>
+<li><strong>Exposed previously invisible system behavior</strong> with new systrace metrics derived from kernel ftrace events</li>
+<li><strong>Ported OpenCV libraries and Android samples</strong> to customer platforms</li>
+</ul>
+<p><strong>Architecture:</strong> AArch64
+<strong>Tools:</strong> C/C++, Python, TensorFlow, PyTorch, Caffe2, Perfetto, Systrace, Git</p>
+<hr />
+<h3>Sigma Connectivity AB — Lund, Sweden</h3>
+<p><strong>Senior Software Developer</strong>
+<em>Mar 2019 – Jun 2021</em></p>
+<ul>
+<li><strong>Delivered the factory test-and-calibration backend for a Microsoft dual-screen Android tablet</strong>, catching defects on the China production line before OS flashing and preventing scrapping of finished units</li>
+<li><strong>Shipped calibrated, tightly synchronized dual displays</strong> — e.g. a map drags and re-renders in sync across both screens</li>
+<li><strong>Enabled direct display control</strong> by modifying the DSI driver to issue DSI commands from an application, combining SurfaceFlinger with FTM-mode display enabling to render to both panels</li>
+<li><strong>Built display tests</strong> for RGB color reproduction, image rendering, and calibration (positioning offset, brightness, dual-display sync), plus temperature-sensor verification</li>
+<li><strong>Sped up bring-up and triage for the whole team</strong> with a post-boot diagnostic home screen showing all sensor states and debug information</li>
+<li>Developer in a large team of 20–30</li>
+</ul>
+<p><strong>Architecture:</strong> Qualcomm MSM89xx
+<strong>Tools:</strong> C/C++, Python, Bash, PowerShell, Git, Azure DevOps, GDB</p>
+<hr />
+<h3>Axis Communications — Lund, Sweden</h3>
+<p><strong>Senior Software Developer</strong>
+<em>Aug 2018 – Mar 2019</em></p>
+<ul>
+<li><strong>Enabled pre-silicon bootloader debugging for a brand-new platform</strong> by implementing QEMU models of peripherals (I2C, Flash) from device specs with correct port and memory-map addressing — before hardware existed</li>
+<li><strong>Resolved Axis-specific and Linux mainline kernel issues</strong> (filesystem, sensors) through bug fixing, crash-dump analysis, and board bring-up</li>
+<li>Developer in a ~10-person team working on surveillance-camera platforms</li>
+</ul>
+<p><strong>Platforms:</strong> ARM9, ARM11, MIPS
+<strong>Tools:</strong> GNU C/C++, Python, Bash, GDB, Crash, QEMU</p>
+<hr />
+<h3>TerraNet AB — Lund, Sweden</h3>
+<p><strong>Senior Software Developer</strong>
+<em>Aug 2017 – Aug 2018</em></p>
+<ul>
+<li><strong>Proved the 3M concept viable</strong> — ~10 Wi-Fi-mesh headset / walkie-talkie units operating simultaneously — by bringing power and CPU usage within budget</li>
+<li><strong>Stripped a heavyweight Android wearable platform to its essentials</strong> (removed SurfaceFlinger and other unneeded services) while preserving the framework audio path required by the Java demo app</li>
+<li>Brought in as the <strong>Android expert</strong> for CPU optimization and power saving</li>
+</ul>
+<p><strong>Architecture:</strong> AArch64
+<strong>Tools:</strong> C/C++, Java, Python, Bash, GDB</p>
+<hr />
+<h3>Sigma Connectivity AB — Lund, Sweden</h3>
+<p><strong>Senior Software Developer</strong>
+<em>Jul 2015 – Aug 2017</em></p>
+<p><strong>Project:</strong> <em>Solarin</em> (Sirin Labs) — ultra-secure luxury Android smartphone</p>
+<ul>
+<li><strong>Took ownership of Wi-Fi and WiGig (802.11ad) and drove the device to Wi-Fi Alliance certification</strong> — achieved on-site in Spain after supporting test runs in the US</li>
+<li><strong>Integrated WiGig (802.11ad)</strong>: firmware loading, wpa_supplicant bring-up, and Wi-Fi/WiGig coexistence within Android's constraints</li>
+<li><strong>Eliminated full-device reboots</strong> by implementing subsystem-restart / ramdump recovery — so the phone never reboots in a user's pocket and stalls at the PIN screen, risking a missed call</li>
+<li><strong>Unblocked automated certification testing</strong> by fixing the adb-forwarding DUT agent that connected to the test lab's control unit</li>
+<li>Configured the <strong>Qualcomm RF front-end</strong> (antenna/PA tuning across LTE bands via MBNs) and MIPI; handled crash-dump analysis and Android stability (ANRs, crashes)</li>
+<li>Developer in a team of ~30</li>
+</ul>
+<p><strong>Architecture:</strong> Qualcomm MSM8994
+<strong>Tools:</strong> C/C++, Java, Python, Bash, QXDM, QPST, Gerrit, Trace32, GDB</p>
+<hr />
+<h3>Sony Mobile Communications / Sony Ericsson — Lund, Sweden</h3>
+<p><strong>Senior Software Engineer</strong>
+<em>Jun 2008 – Jul 2015</em></p>
+<p>Member of <strong>MIB (Men In Black)</strong> — an interview-and-test-gated elite troubleshooting team owning all functionality on specific phone series (~10 engineers per series, including a dedicated power-saving subteam) for mass-market handsets with per-country and per-operator customizations.</p>
+<ul>
+<li><strong>Saved a large handset order</strong> by root-causing broken video streaming for an Israeli operator — through deep code analysis and diffing against a newer series where it could not be reproduced</li>
+<li><strong>Pinpointed memory leaks and accidental duplicate object instances</strong> by building a memory-usage tracker (custom <code>malloc</code>/<code>free</code> macros instrumented with <code>__FILE__</code>/<code>__LINE__</code>, parsed from logs into allocation/free statistics)</li>
+<li><strong>Made modem-related crashes classifiable</strong> with a debug tool that recorded modem logs into a ring buffer, retrievable on crash</li>
+<li><strong>Co-developed a GDB plugin</strong> exposing Java backtraces and objects per thread inside native crash dumps</li>
+<li><strong>Tamed massive memory corruption, leaks, and watchdogs</strong> rooted in the EMP platform (Ericsson Mobile Platform, OSE-based) having dropped the MMU, which let any code — including user apps — access any memory</li>
+<li>Worked at <strong>senior level throughout</strong>, supporting and supervising fixes across many teams</li>
+</ul>
+<p><strong>Architectures:</strong> Qualcomm MSMxxxx, OSE, ST-Ericsson, Broadcom, OMAP4
+<strong>Tools:</strong> C/C++, Java, Python, Bash, Trace32, GDB, Jira</p>
+<hr />
+<h3>Accenture Nordics — Riga, Latvia</h3>
+<p><strong>Senior System Analyst</strong>
+<em>2006 – 2008</em></p>
+<ul>
+<li><strong>Proved from a crash dump — using register contents and disassembled code — that a failure was caused by a bit-flip from overheating</strong></li>
+<li><strong>Owned TFTP/BOOTP and ATM interfaces</strong> on <strong>IPSO</strong> (the FreeBSD-based OS for firewall appliances), alongside broad bug fixing and crash-dump analysis</li>
+<li>Outsourcing project for <strong>Nokia</strong>, later <strong>Nokia Siemens Networks</strong>; ~15-person team</li>
+</ul>
+<p><strong>Architectures:</strong> FreeBSD 3.6, Linux
+<strong>Tools:</strong> C/C++, Python, Bash, TCL/TK, GDB, IXIA, CVS</p>
+<hr />
+<h3>Exigen Group (Software House Technology) — Riga, Latvia</h3>
+<p><strong>Senior Developer</strong>
+<em>1998 – 2006</em></p>
+<ul>
+<li><strong>Fully rewrote the PCMCIA stack</strong> (Socket Services / Card Services) and <strong>added CardBus support</strong>, modifying PCI drivers to dynamically configure CardBus adapters</li>
+<li><strong>Enabled IBM Ethernet 10/100, Token Ring, and USB 2.0 CardBus adapters on IBM ThinkPad</strong></li>
+<li>Shipped <strong>OS/2 device drivers for IBM</strong> across OS/2 Warp 4 Convenience Package, Warp 4 Server CP, OS/2 Aurora (CP), and Fix Paks, for IBM PS/2 servers and ThinkPad</li>
+<li>Grew from <strong>test engineer to Advanced Software Developer</strong>; team of ~10</li>
+</ul>
+<p><strong>Architecture:</strong> Intel x86
+<strong>Tools:</strong> Microsoft C++, MASM, Watcom C++, IBM VisualAge, CMVC</p>
+<hr />
+<h2>Education</h2>
+<p><strong>Higher Technical Education</strong> — Software Engineering / Computer Systems</p>
+<hr />
+<h2>Skills</h2>
+<ul>
+<li><strong>Operating Systems:</strong> Linux, Unix, FreeBSD, AIX, Solaris, OS/2 (20+ years)</li>
+<li><strong>Mobile Platforms:</strong> Android / Android Wear / AOSP (12+ years)</li>
+<li><strong>Programming Languages:</strong> C / C++ (26+ years), Python, Java</li>
+<li><strong>Debugging &amp; Root-Cause Analysis:</strong> GDB, LLDB, Trace32, Ozone J-Link, crash-dump &amp; ramdump analysis</li>
+<li><strong>Emulation:</strong> QEMU</li>
+<li><strong>AI / Hardware:</strong> ARM Ethos-U NPUs, NPU/APU performance &amp; power profiling, TensorFlow, PyTorch</li>
+<li><strong>Embedded:</strong> Performance analysis, power profiling, device drivers, board bring-up</li>
+<li><strong>Currently exploring:</strong> Verilog / FPGA development</li>
+</ul>
+<hr />
+</div>
+</body>
+</html>
